@@ -1,12 +1,12 @@
-#Description
+# Description
 
 This is a simple currency mod for The Digital Farms Minetest server, although it could easily be used elsewhere
 
-#Details
+# Details
 
 This mod provides denominations of currency in the form of ones, tens, twenties, hundreds, and quarters (coins). The currency is created by converting silver ingots into ones. These can then be converted into higher or lower denominations in the crafting grid. For example, a single 1 will produce 4 quarters, and 5 will make a 5 dollar bill. $5 bills can be converted to tens and twenties, or back to ones. Tens can be converted to 20s or fives, but not hundreds.
 
-#FAQ (or potentially asked questions
+# FAQ (or potentially asked questions
 
 **Why silver ingots?**
 
