@@ -1,31 +1,32 @@
 print("Digital Farm dollar mod loaded")
+local S = minetest.get_translator(minetest.get_current_modname())
 
 minetest.register_craftitem("dfdollar:one", {
-    description = "1 (one) DF dollar note",
+    description = S("1 (one) DF dollar note"),
     inventory_image = "dfdollar_one.png",
     stack_max = 65535                                      -- The maximum is capped by the Minetest engine itself. Setting this higher won't increase it beyond 65535
 })
 
 minetest.register_craftitem("dfdollar:five", {
-    description = "5 (five) DF dollar note",
+    description = S("5 (five) DF dollar note"),
     inventory_image = "dfdollar_five.png",
     stack_max = 65535                                      -- The maximum is capped by the Minetest engine itself. Setting this higher won't increase it beyond 65535
 })
 
 minetest.register_craftitem("dfdollar:ten", {
-    description = "10 (ten) DF dollar note",
+    description = S("10 (ten) DF dollar note"),
     inventory_image = "dfdollar_ten.png",
     stack_max = 65535                                      -- The maximum is capped by the Minetest engine itself. Setting this higher won't increase it beyond 65535
 })
 
 minetest.register_craftitem("dfdollar:twenty", {
-    description = "20 (twenty) DF dollar note",
+    description = S("20 (twenty) DF dollar note"),
     inventory_image = "dfdollar_twenty.png",
     stack_max = 65535                                      -- The maximum is capped by the Minetest engine itself. Setting this higher won't increase it beyond 65535
 })
 
 minetest.register_craftitem("dfdollar:hundred", {
-    description = "100 (one hundred) DF dollar note",
+    description = S("100 (one hundred) DF dollar note"),
     inventory_image = "dfdollar_hundred.png",
     stack_max = 65535                                      -- The maximum is capped by the Minetest engine itself. Setting this higher won't increase it beyond 65535
 })
@@ -34,7 +35,7 @@ minetest.register_craftitem("dfdollar:hundred", {
 if(minetest.get_modpath("homedecor_gastronomy")) ~= nil then
 
 minetest.register_craftitem(":currency:minegeld_cent_25", {
-    description = "1 (one) DF quarter (compat)",
+    description = S("1 (one) DF quarter (compat)"),
     inventory_image = "dfdollar_quarter.png",
     stack_max = 65535,                                      -- The maximum is capped by the Minetest engine itself. Setting this higher won't increase it beyond 65535
     groups = {quartercoin=1,},
@@ -47,7 +48,7 @@ end
 if(minetest.get_modpath("homedecor_gastronomy")) == nil then
 
 minetest.register_craftitem("dfdollar:quarter", {
-    description = "1 (one) DF quarter",
+    description = S("1 (one) DF quarter"),
     inventory_image = "dfdollar_quarter.png",
     stack_max = 65535,                                      -- The maximum is capped by the Minetest engine itself. Setting this higher won't increase it beyond 65535
     groups = {quartercoin=1,},
