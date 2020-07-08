@@ -138,9 +138,9 @@ minetest.register_craft({
 ----Convert twenties to tens
 minetest.register_craft({
     type = "shapeless",
-    output = "dfdollar:ten 4",
+    output = "dfdollar:ten 2",
     recipe = {
-        "dfdollar:twenty", "dfdollar:twenty",
+        "dfdollar:twenty",
     },
 })
 

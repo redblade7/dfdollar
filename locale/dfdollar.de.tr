@@ -1,0 +1,8 @@
+# textdomain:dfdollar
+1 (one) DF dollar note=1 (ein) DF dollar-schein
+5 (five) DF dollar note=5 (fünf) DF dollar-schein
+10 (ten) DF dollar note=10 (zehn) DF dollar-schein
+20 (twenty) DF dollar note=20 (zwanzig) DF dollar-schein
+100 (one hundred) DF dollar note=100 (einhundert) DF dollar-schein
+1 (one) DF quarter (compat)=1 (ein) DF viertel (aus kompatibilitätsgründen)
+1 (one) DF quarter=1 (ein) DF viertel

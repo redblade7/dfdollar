@@ -1,0 +1,8 @@
+# textdomain:dfdollar
+1 (one) DF dollar note=
+5 (five) DF dollar note=
+10 (ten) DF dollar note=
+20 (twenty) DF dollar note=
+100 (one hundred) DF dollar note=
+1 (one) DF quarter (compat)=
+1 (one) DF quarter=
