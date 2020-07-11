@@ -61,11 +61,11 @@ end
 
 --Recipes
 
-----100 dollars per silver ingot
+----20 dollars per silver ingot
 
 minetest.register_craft({
     type = "shapeless",
-    output = "dfdollar:one 100",
+    output = "dfdollar:one 20",
     recipe = {
         "moreores:silver_ingot",
     },
@@ -186,6 +186,6 @@ minetest.register_craft({
     type = "shapeless",
     output = "moreores:silver_ingot 2",
     recipe = {
-        "dfdollar:hundred", "dfdollar:hundred", 
+        "dfdollar:twenty", "dfdollar:twenty", 
     },
 })
